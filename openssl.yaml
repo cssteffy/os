@@ -54,8 +54,7 @@ pipeline:
       # to
       # `- plan tests => 134;`
       # `+ plan tests => 138;`
-      # This patch can probably be removed in the next 3.5.1 openssl upstream release.
-      patches: fix-jitter.patch fix-cve-2025-4575.patch
+      patches: fix-jitter.patch
 
   - name: Create dbg sourcecode
     runs: |
